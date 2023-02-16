@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style-type: none;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+header{
+    padding:50px;
+    background-color: blueviolet;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    padding:20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:10px;
+}
+
+.hijo{
+    padding:10px;
+}
+
+.icon{
+    width: 48px;
+    height: 48px;
+}
+
+footer{
+    padding:50px;
+    background-color: blueviolet;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
